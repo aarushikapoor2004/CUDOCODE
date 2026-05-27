@@ -1,73 +1,104 @@
-🤖 CUDOCODE AI Analytics Dashboard
+# 🤖 CUDOCODE AI ANALYTICS DASHBOARD
 
-An AI-powered coding analytics platform that combines Python analytics, interactive dashboards, and a Gemini-powered GenAI assistant to generate real-time insights from coding-platform datasets.
+An AI-powered analytics platform that combines data analytics, interactive dashboards, and Generative AI to generate intelligent insights from coding-platform datasets.
 
-🚀 Live Demo
+---
 
-🌍 Deployed App:
-CUDOCODE AI Analytics Dashboard
+## 🚀 Live Demo
 
-📂 GitHub Repository:
-CUDOCODE_ANALYTICS Repository
+🔗 Live Application:  
+https://cudocodeanalytics-nby7ytrsk5essfmbwmw6t7.streamlit.app/
 
-📌 Project Overview
+🔗 GitHub Repository:  
+https://github.com/aarushikapoor2004/CUDOCODE_ANALYTICS
 
-This project analyzes coding-platform activity data including:
+---
 
-user engagement
-problem difficulty
-submission success rates
-chatbot usage impact
+# 📌 Project Overview
 
-The platform also integrates a GenAI-powered analytics assistant capable of answering natural-language questions using dynamically updated dataset insights.
+CUDOCODE AI Analytics Dashboard is an end-to-end analytics and AI system built to analyze coding-platform activity such as:
 
-🧠 Features
+- User engagement
+- Submission performance
+- Problem difficulty trends
+- Chatbot interaction impact
+- Success and failure analytics
 
-✅ AI-powered analytics assistant using Gemini API
-✅ Interactive Streamlit dashboard
-✅ Real-time KPI analysis
-✅ Dynamic dataset processing with Pandas
-✅ User engagement and submission analysis
-✅ Problem difficulty distribution visualization
-✅ Live deployment using Streamlit Cloud
+The platform integrates a Gemini-powered AI assistant capable of answering natural-language questions using dynamically updated dataset insights.
 
-🛠️ Tech Stack
-Category	Technologies
-Programming	Python
-Database	SQLite
-Data Processing	Pandas
-Visualization	Matplotlib, Streamlit
-AI/LLM	Gemini API
-Deployment	Streamlit Cloud
-Version Control	Git & GitHub
-⚙️ Analytics Pipeline
+---
+
+# 🧠 Features
+
+- 📊 Interactive analytics dashboard
+- 🤖 Gemini-powered AI analytics assistant
+- 📈 Real-time KPI analysis
+- 🔍 Natural-language querying
+- 🧩 Coding-platform dataset analysis
+- 📉 User engagement insights
+- ☁️ Live deployment using Streamlit Cloud
+
+---
+
+# 🛠️ Tech Stack
+
+| Category | Technologies |
+|----------|--------------|
+| Programming Language | Python |
+| Database | SQLite |
+| Data Analysis | Pandas |
+| Visualization | Streamlit, Matplotlib |
+| AI / LLM | Gemini API |
+| Deployment | Streamlit Cloud |
+| Version Control | Git & GitHub |
+
+---
+
+# ⚙️ System Architecture
+
+```text
 SQLite Database
         ↓
 Python Analytics Pipeline
         ↓
-Dashboard Dataset Generation
+Dataset Processing & KPI Generation
         ↓
-Streamlit Visualization Dashboard
+Streamlit Dashboard UI
         ↓
 Gemini AI Analytics Assistant
-📊 Key Insights Generated
-Top active users
-Success vs failure rate
-Difficulty distribution
-Chatbot impact analysis
-Engagement metrics
-AI-generated analytics summaries
-🤖 AI Assistant Capabilities
+```
 
-Users can ask questions such as:
+---
 
-What is the success rate?
-Who are the top active users?
-Which difficulty level has the highest failures?
+# 📊 Analytics Generated
 
-The Gemini-powered assistant dynamically generates responses using the latest dataset context.
+The platform provides insights such as:
 
-📁 Project Structure
+- Top active users
+- Success vs failure rates
+- Problem difficulty distribution
+- Chatbot impact analysis
+- User engagement metrics
+- AI-generated performance summaries
+
+---
+
+# 🤖 AI Assistant
+
+The integrated Gemini-powered assistant can answer questions like:
+
+- What is the success rate?
+- Which users are most active?
+- Which difficulty level has the highest failures?
+- Summarize overall platform performance.
+
+The assistant dynamically generates responses using the latest analytics context from the dataset.
+
+---
+
+# 📂 Project Structure
+
+```text
 CUDOCODE_ANALYTICS/
 │
 ├── app.py
@@ -86,23 +117,56 @@ CUDOCODE_ANALYTICS/
 │   ├── top_users.png
 │   ├── success_rate.png
 │   └── difficulty_distribution.png
-▶️ Run Locally
-Clone Repository
+```
+
+---
+
+# ▶️ Installation & Setup
+
+## 1️⃣ Clone Repository
+
+```bash
 git clone https://github.com/aarushikapoor2004/CUDOCODE_ANALYTICS.git
-Install Dependencies
+```
+
+---
+
+## 2️⃣ Install Dependencies
+
+```bash
 pip install -r requirements.txt
-Run Streamlit App
+```
+
+---
+
+## 3️⃣ Run Application
+
+```bash
 python -m streamlit run app.py
-🔮 Future Improvements
-Advanced AI agent architecture
-Real-time database updates
-Smarter contextual retrieval (RAG)
-Enhanced dashboard UI/UX
-Power BI integration
-Conversational memory support
-👩‍💻 Author
+```
 
-Aarushi Kapoor
+---
 
-📧 aarushik250@gmail.com
-🔗 GitHub Profile
+# 🌐 Deployment
+
+The application is deployed using Streamlit Community Cloud.
+
+---
+
+# 🔮 Future Improvements
+
+- AI Agent architecture
+- Advanced contextual retrieval (RAG)
+- Real-time database updates
+- Enhanced dashboard UI/UX
+- Power BI integration
+- Conversational memory support
+
+---
+
+# 👩‍💻 Author
+
+## Aarushi Kapoor
+
+- GitHub: https://github.com/aarushikapoor2004
+- Email: aarushik250@gmail.com
